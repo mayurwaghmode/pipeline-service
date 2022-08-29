@@ -9,4 +9,5 @@ spec:
   resources:
     requests:
       storage: 10Mi
+  storageClassName: managed-nfs-storage
   volumeMode: Filesystem
